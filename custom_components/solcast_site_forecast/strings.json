@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Solcast site",
+        "description": "Adds one Solcast rooftop site as its own Energy dashboard forecast. Reads data the Solcast PV Forecast integration already has; makes no Solcast API calls.",
+        "data": {
+          "name": "Name",
+          "site": "Site resource ID"
+        }
+      }
+    },
+    "error": {
+      "unknown_site": "Solcast does not know this site resource ID.",
+      "solcast_missing": "The Solcast PV Forecast integration is not loaded."
+    },
+    "abort": {
+      "already_configured": "This site is already added."
+    }
+  }
+}

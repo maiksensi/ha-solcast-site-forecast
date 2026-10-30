@@ -1,0 +1,17 @@
+{
+  "domain": "solcast_site_forecast",
+  "name": "Solcast Site Forecast",
+  "codeowners": [
+    "@maiksensi"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "solcast_solar"
+  ],
+  "documentation": "https://github.com/maiksensi/ha-solcast-site-forecast",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/maiksensi/ha-solcast-site-forecast/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
